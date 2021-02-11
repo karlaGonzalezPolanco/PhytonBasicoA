@@ -1,4 +1,13 @@
-
+#Triángulo de altura y base conocidos
+num = input("Ingrese un número entero: ")
+try:
+    entero = int(num)
+    for i in range (entero):
+        for j in range (i+1):
+            print("*", end="")
+        print("")
+except ValueError:
+    print("El valor ingresado no es un número entero.")
 
 #Determinar si un número es primo
 n = input("Introduce un número entero positivo: ")
